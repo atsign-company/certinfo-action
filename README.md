@@ -1,9 +1,8 @@
-<h1><a href="https://atsign.com#gh-light-mode-only"><img width=250px
-src="https://atsign.com/wp-content/uploads/2022/05/atsign-logo-horizontal-color2022.svg#gh-light-mode-only"
-alt="The Atsign Foundation"></a>
-<a href="https://atsign.com#gh-dark-mode-only"><img width=250px
-src="https://atsign.com/wp-content/uploads/2023/08/atsign-logo-horizontal-reverse2022-Color.svg#gh-dark-mode-only"
-alt="The Atsign Foundation"></a></h1>
+<!-- pyml disable-num-lines 4 md013,md033-->
+<h1><a href="https://atsign.com#gh-light-mode-only">
+   <img width=250px src="https://atsign.com/wp-content/uploads/2022/05/atsign-logo-horizontal-color2022.svg#gh-light-mode-only" alt="The Atsign Foundation"></a>
+<a href="https://atsign.com#gh-dark-mode-only">
+   <img width=250px src="https://atsign.com/wp-content/uploads/2023/08/atsign-logo-horizontal-reverse2022-Color.svg#gh-dark-mode-only" alt="The Atsign Foundation"></a></h1>
 
 # Certinfo Action
 
@@ -15,9 +14,9 @@ available to Actions workflows by:
 
 So that certificates can be validated as part of a workflow.
 
-# Usage
+## Usage
 
-## Basic example
+### Basic example
 
 ```yaml
 name: Certinfo
@@ -40,32 +39,40 @@ jobs:
         run: certinfo root.atsign.org:64
 ```
 
-# Version History
+## Version History
 
-## v1.0.1
+### v1.0.1
+
 * Converted action.yml and test.yml from CRLF to LF
 * Bumped checkout to v3 in example
 
-## v1.0
+### v1.0
+
 * Promoted to 1.0
 
-## v0.6
+### v0.6
+
 * Add RUNNER_TOOL_CACHE to PATH
 * Got it working
 
-## v0.5
+### v0.5
+
 * Move certinfo to RUNNER_TOOL_CACHE
 
-## v0.4
+### v0.4
+
 * Follow redirects to fetch from GitHub releases
 
-## v0.3 
+### v0.3
+
 * Updated test workflow
 
-## v0.2
+### v0.2
+
 * Made setup.sh executable
 
-## v0.1
+### v0.1
+
 * Initial version.
 
 ## Acknowledgement/Attribution
